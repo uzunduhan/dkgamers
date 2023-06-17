@@ -274,8 +274,8 @@ namespace DKGamers.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "1", "d121c78c-1162-43de-b5b7-19b9b58ba31a", "admin", "ADMIN" },
-                    { "2", "8847a878-5480-4595-8afd-31fc92b41826", "user", "USER" }
+                    { "1", "b7e3b2ce-0372-44cf-8561-10e9651bf44e", "admin", "ADMIN" },
+                    { "2", "e0b397d0-ac23-4559-9256-1fc2edc5cab5", "user", "USER" }
                 });
 
             migrationBuilder.InsertData(
@@ -283,11 +283,11 @@ namespace DKGamers.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "8e117364-e21d-4613-a6d7-9423e041cdb9", 0, "a6d9f1f6-faf5-470f-9183-07212a332924", "kadircelik249@gmail.com", true, false, null, "KADIRCELIK249@GMAIL.COM", "KADIRCELIK249@GMAIL.COM", "AQAAAAEAACcQAAAAEBP7816duPZX2tfR0fTOEh/nC/2i1Eg1IR5iyY4n3xe9A7EsdlDzvUaD40HyMEtilg==", null, false, "c1290589-0c36-46e4-a977-2ce76b90a5ce", false, "kadircelik249@gmail.com" },
-                    { "8e117364-e21d-4713-a6d7-9423d041edb9", 0, "bfdc29cf-e32f-4fe2-913f-d5bf71ed02ee", "duhan181999@gmail.com", true, false, null, "DUHAN181999@GMAIL.COM", "DUHAN181999@GMAIL.COM", "AQAAAAEAACcQAAAAEKhjZcXwKrN2sDURo8Du/ML51DiAb3fO/swKYG84O8N14Xuw9Hp+mxRvxRbbXl7Jzg==", null, false, "8392f7c7-6ee0-439b-a584-aee8fbfe007c", false, "duhan181999@gmail.com" },
-                    { "8e117364-e21d-5613-a6d7-9413e041cdb9", 0, "3c2e54a1-704f-4acb-a7fb-c6ccc0dbeae4", "ertugrul@outlook.com", true, false, null, "ERTUGRUL@OUTLOOK.COM", "ERTUGRUL18", "AQAAAAEAACcQAAAAEP9JmZDEL19tZn5Q0bDtwwWAHkwtm8+I2/UAvuCX2RmhqG7TxbVkXQEm19OAWuNhQw==", null, false, "56f07b61-944d-4ffb-bd8a-5e1dca6d9ac5", false, "ertugrul18" },
-                    { "8e217364-e21d-5613-a6d7-9413e041cdb9", 0, "f995e6ff-a00f-47f1-aeaa-d6fbde66414e", "batuhan34@outlook.com", true, false, null, "BATUHAN34@OUTLOOK.COM", "BATUHAN34", "AQAAAAEAACcQAAAAEDO2j/I1ZG8/0Z7pnIG1u+Md5DTUB5As/Y12CZ3UIKmgV9he5Yhw/7qBnE8Utu/Ftg==", null, false, "a9a24952-ffb6-4573-b989-8f5488c8a3e8", false, "batuhan34" },
-                    { "8e317364-e21d-5613-a6d7-9413e041cdb9", 0, "576a27c4-af46-4998-b8c5-e4813949c42a", "berk77@outlook.com", true, false, null, "BERK77@OUTLOOK.COM", "BERK77", "AQAAAAEAACcQAAAAEKbpr1P1TYlMTEhusH11WUvmw04cVsJZ1ubBF6WdMb37qdlmgLEg+XrqyeyfUzQcdg==", null, false, "8f60ebd9-c422-4e34-ba5a-3e87c65205f7", false, "berk77" }
+                    { "8e117364-e21d-4613-a6d7-9423e041cdb9", 0, "92c826d8-8e9a-4b32-8479-25cf554573cf", "kadircelik249@gmail.com", true, false, null, "KADIRCELIK249@GMAIL.COM", "KADIRCELIK249@GMAIL.COM", "AQAAAAEAACcQAAAAECSnei8rTNa6oqAYOuuGrNKVKkOkHizrlezsX/gtmAyBcnTKsyFbuzG1RexDuOVOhw==", null, false, "5fabee25-5a4f-4aa5-b8b2-44f66c83fb83", false, "kadircelik249@gmail.com" },
+                    { "8e117364-e21d-4713-a6d7-9423d041edb9", 0, "4141c4bc-d0e1-48ca-9a40-cb5926cc3bb9", "duhan181999@gmail.com", true, false, null, "DUHAN181999@GMAIL.COM", "DUHAN181999@GMAIL.COM", "AQAAAAEAACcQAAAAEDisQKzewOlciz3VK9EFjOJZhGi2sxBcl3MyBbMjoAlSujg2UAnKy5NRaUKtnmEasQ==", null, false, "cfe971ea-3684-4182-a0ce-bc96a02303b6", false, "duhan181999@gmail.com" },
+                    { "8e117364-e21d-5613-a6d7-9413e041cdb9", 0, "302f928c-1117-47db-9006-229cec2a2688", "ertugrul@outlook.com", true, false, null, "ERTUGRUL@OUTLOOK.COM", "ERTUGRUL18", "AQAAAAEAACcQAAAAEL4Bw6ilx7MyTm7VyX3qvqwebOTWENUsedXARND8HNCeQZglXXObcMxHfO2XZi5bRA==", null, false, "349e81fb-20ab-4ab7-bbc8-cb289184976e", false, "ertugrul18" },
+                    { "8e217364-e21d-5613-a6d7-9413e041cdb9", 0, "42cc77e3-2795-4875-a21e-d3c9300fbade", "batuhan34@outlook.com", true, false, null, "BATUHAN34@OUTLOOK.COM", "BATUHAN34", "AQAAAAEAACcQAAAAEPKPLZbB77faYIwpks9W2LXBw/Cr0/U84+NeQfc5K21OwRdtb8Wra9vGmA55M/CEdQ==", null, false, "a8a51060-43bd-4100-8487-1cf7ce95db5d", false, "batuhan34" },
+                    { "8e317364-e21d-5613-a6d7-9413e041cdb9", 0, "de2f7c5a-40fb-4b96-86d2-05dcd5f0d22b", "berk77@outlook.com", true, false, null, "BERK77@OUTLOOK.COM", "BERK77", "AQAAAAEAACcQAAAAEIL8mfI9ze1THluO9M/6ABjQw/ZAQ/ZP9oMWjnYQ/wPiryCgflWMQfqi3zIF4kdPrA==", null, false, "ffd99ad5-e925-4d3d-8864-af51bb3f1783", false, "berk77" }
                 });
 
             migrationBuilder.InsertData(
