@@ -24,7 +24,7 @@ namespace DKGamers.Data
         public DbSet<OyunKategorisi> OyunKategorisi { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"workstation id=duhandb.mssql.somee.com;packet size=4096;user id=duhanuzun_SQLLogin_4;pwd=xcgdxq8zzz;data source=duhandb.mssql.somee.com;persist security info=False;initial catalog=duhandb");
+            optionsBuilder.UseSqlServer("Server=.;Database=DkGamers;Trusted_Connection=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
